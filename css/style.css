@@ -356,6 +356,39 @@ button{
 }
 
 /* Footer */
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer .box-footer{
+    width: 60%;
+    
+    margin: 0 auto;
+    padding: 4em 0em;
+}
+.footer .box-footer .nav-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-footer > .b-footer{
+    width: calc(100% / 5 - 5px);
+    height: 100%;
+    border: 1px solid red;
+}
+.box-footer hr{
+    width: 10%;
+    margin: 4em 0em;
+}
+.t-langue{
+    font-size: 1.4rem;
+    
+}
+
 
 
 

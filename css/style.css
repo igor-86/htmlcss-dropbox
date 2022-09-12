@@ -27,6 +27,13 @@ html{
     width: 100%;
     margin: 0 auto;
 }
+.br-one{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.br-two{
+    border-bottom: 1px solid black;
+}
 
 /* TIPOGRAPHY */
 a{
@@ -260,6 +267,97 @@ button{
 .call-to h2{
     font-size: 3.6rem;
 }
+
+/* Section Sponsor */
+/* Sponsor Top */
+.sponsor-top{
+    max-width: 100%;
+    background-color: grey;
+    height: 618.66px;
+    display: flex;
+}
+.sponsor .box-sp{
+    width: calc(100% / 3);
+    height: 618.66px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-sp .single-sp{
+    width: 50%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+.single-sp > img{
+    width: 100%;
+    height: 50%;
+}
+/* Sponsor Bottom */
+.sponsor-bottom{
+    background-color: rgb(32, 189, 251);
+    width: 100%;
+}
+.cont-box{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5em 0em;
+    margin: 0 auto;
+    display: flex;
+}
+.s-b-left{
+    width: 60%;
+}
+.sp-button{
+   padding: .6em 1.4em;
+}
+.s-b-left h2{
+    font-size: 3.6rem;
+}
+/* Questions */
+.questions{
+    width: 100%;
+    padding: 10em 0em;
+}
+.box-quest{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.box-quest h2{
+    font-size: 3.6rem;
+}
+.box-quest h3{
+    font-size: 1.8rem;
+}
+.box-quest .box-questions{
+    width: 100%;
+}
+.box-questions .quest{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0em;
+}
+.quest > .q-text{
+    width: 70%;
+}
+.quest > .chevron{
+    width: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Footer */
+
+
 
 
 

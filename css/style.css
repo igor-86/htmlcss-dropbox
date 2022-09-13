@@ -19,6 +19,9 @@ html{
 .mb-m{
     margin-bottom: 1em;
 }
+.mb-1{margin-bottom: 1em;} 
+.mb-2{margin-bottom: 2.4em;}
+
 #mb-b{
     margin-bottom: 2.2em;
 }
@@ -36,6 +39,17 @@ html{
 }
 .br-two{
     border-bottom: 1px solid black;
+}
+label{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+input{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.i-blue{
+    color:#0061ff;
 }
 /* CSS PROPERTIES */
 :root{
@@ -194,84 +208,149 @@ header .b-header{
 }
 .business .business-title{
     width: 100%;
-    min-height: 100px;
-    background-color: brown;
+    padding: 3em 0em;
 }
+.business-title > h2{
+    font-size: 3.6rem;
+}
+.business-title .check-radio{
+    display: flex;
+    align-items: center;
+    margin-top:2em;
+}
+.check-radio > #ml{
+    margin-left: 3em;
+}
+
 /* Business row */
 .business .bus-row{
     width: 100%;
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
     
 .bus-row > .bus-col{
     width: calc(100% /3 - 20px);
-    border: 1px solid red;
+    border: 1px solid black;
     
 }
 .bus-title{
     text-align: center;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
+    padding: 1em 0em;
 }
 .bus-prize{
-    padding: 1em .5em;
+    padding: 1em .9em;
+}
+.top-prize > h3{
+    font-size: 2.2rem;
+    margin-bottom: .5em;
+}
+.top-prize >h4{
+    margin-bottom: .5em;
+}
+.activity{
+    min-height: 200px;
+}
+.activity li{
+    margin-bottom: .8em;
+}
+.activity:last-child{
+    margin-bottom: 0px;
+}
+.bus-prize >.b-header{
+    margin: 2em 0em;
+    background-color: var(--color-button-one);
+    padding: 0.9em 2.5em;
+}
+.bus-prize >.b-header a{
+    font-size: 1.6rem;
+}
+#pay{
+    text-decoration: underline;
+    color: blue;
 }
 
-.bus-col hr{
+.bus-col #hr{
     width: 30%;
-    margin-left: .5em;
+    margin: 2em 0em 2em .5em;
 }
 .highlights{
-    padding: 1em .5em;
+    padding: 1em .9em;
 }
+.info li{
+    margin-bottom: .8em;
+}
+/* Team enterprice */
+
 /* Offices */
 .business .offices{
     width: 100%;
-    background-color: aquamarine;
-    height: 300px;
     font-size: 2rem;
+    border: 1px solid black;
 }
 .offices .o-title{
     text-align: center;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
+    padding: 1em 0em;
 }
 .offices .o-row{
     width: 100%;
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
-    padding: 1em .5em;
+    padding: 1.2em .9em;
 }
 .o-col{
-    width: 80%;
-    height: 250px;
-    border: 1px solid red;
+    width: 70%;
 }
-.but-office{
-    padding: .2em .9em;
-    height: 20px;
+.o-col > h3{
+    font-size: 2.2rem;
+    margin-bottom: .5em;
 }
+.o-col > p{
+    margin-top: 3em;
+    font-size: 1.6rem;
+}
+.o-col2{
+    width: 30%;
+    text-align: end;
+}
+.o-col2 > .b-header{
+    background-color: var(--color-button-one);
+    padding: 0.9em 2.5em;
+}
+
+
 /* Section Search */
 .search{
     width: 100%;
-    height: 500px;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
 }
 .search .img-search{
     width: 60%;
-    border: 1px solid red;
 }
+.img-search > img{
+    width: 100%;
+}
+
 .search .text-search{
     width: 40%;
     border: 1px solid red;
     padding: 3em;
 }
+.text-search > h3{
+    font-size: 2.2rem;
+    margin-bottom: .5em;
+}
+.text-search > p{
+    font-size: 1.6rem;
+}
 .text-search > .b-search{
-    padding: .8em;
+    border: 1px solid black;
+    padding: 0.9em 2.5em;
+    background-color: white;
 }
 
 /* CARDS */

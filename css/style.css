@@ -10,6 +10,9 @@ html{
 }
 
 /* COMMON */
+.mt-sb{
+    margin-top: 12em;
+}
 .mt-b{
     margin-top: 8em;
 }
@@ -337,7 +340,6 @@ header .b-header{
 
 .search .text-search{
     width: 40%;
-    border: 1px solid red;
     padding: 3em;
 }
 .text-search > h3{
@@ -357,7 +359,6 @@ header .b-header{
 
 .cards{
     width: 100%;
-    background-color: aquamarine;
 }
 .cards h2{
     font-size: 3.6rem;
@@ -369,12 +370,25 @@ header .b-header{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2em 2.5em;
-    border: 1px solid red;
 }
 .cards-row > .cards-col{
     width: calc(100% / 3 - 2em);
-    height: 400px;
-    background-color: yellow;
+}
+.c-c-img > img{
+    width: 100%;
+}
+.cards-col > img{
+    width: 100%;
+}
+.cards-row .c-c-text{
+    margin-top: .5em;
+}
+.c-c-text > h3{
+    margin-bottom: 1em;
+    font-size:2.2rem;
+}
+.c-c-text > p{
+    font-size: 1.6rem;
 }
 
 /* Call to */
@@ -416,7 +430,8 @@ header .b-header{
 }
 .single-sp > img{
     width: 100%;
-    height: 50%;
+    height:30%;
+    
 }
 /* Sponsor Bottom */
 .sponsor-bottom{
@@ -510,7 +525,6 @@ header .b-header{
 }
 .t-langue{
     font-size: 1.4rem;
-    
 }
 
 

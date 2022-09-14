@@ -547,13 +547,11 @@ header .b-header{
 .footer .box-footer{
     max-width: 1200px;
     width: 100%;
-    
     margin: 0 auto;
     padding: 4em 0em;
 }
 .footer .box-footer .nav-footer{
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -561,8 +559,16 @@ header .b-header{
 }
 .nav-footer > .b-footer{
     width: calc(100% / 5 - 5px);
-    height: 100%;
-    border: 1px solid red;
+    padding: 2em 0em;
+}
+.b-footer h3{
+    font-size: 2.2rem;
+    margin-bottom: 1em;
+}
+
+.b-footer .foot-ul li{
+    margin-bottom: 0.8em;
+    font-size: 1.3rem;
 }
 .box-footer hr{
     width: 10%;

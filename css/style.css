@@ -174,25 +174,7 @@ button{
     color: var(--font-color-black);
     font-size: 1.3rem;
 }
-/* Animation Arrow */
-.fa-arrow-down{
-    animation: arrowAnimation .8s ease-in-out infinite;
-}
-@keyframes arrowAnimation {
-    0%{
-        color: black;
-        transform: scale(1);
-    }
-    50%{
-        color: #0061ff;
-        transform: scale(1.1);
-    }
-    100%{
-        color: black;
-        transform: scale(1.1);
-    }
-    
-}
+
 /* Nav right */
 
 
@@ -285,6 +267,25 @@ header .b-header{
 
 .jumbo-dx > img{
     width: 100%;
+}
+/* Animation Arrow */
+.fa-arrow-down{
+    animation: arrowAnimation .8s ease-in-out infinite;
+}
+@keyframes arrowAnimation {
+    0%{
+        color: black;
+        transform: scale(1);
+    }
+    50%{
+        color: #0061ff;
+        transform: scale(1.1);
+    }
+    100%{
+        color: black;
+        transform: scale(1.1);
+    }
+    
 }
 /* MAIN */
     /* Section Business */
@@ -606,6 +607,9 @@ header .b-header{
 
 .quest:hover .repli{
     display: block;
+}
+.quest:hover i{
+    transform: rotate(180deg);
 }
 
 /* Footer */

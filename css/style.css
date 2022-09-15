@@ -162,10 +162,10 @@ button{
     font-size: var(--font-li);
     line-height: 80px;
     transition: all .8s ease-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .sx li:hover{
     border-bottom: 1px solid black;
-    
 }
 .sx li:hover a{
     color: rgba(0, 0, 0, 0.5);
@@ -194,6 +194,7 @@ button{
 .dx li{
     font-size: var(--font-li);
     line-height: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .dx li:hover{
     border-bottom: 1px solid black;
